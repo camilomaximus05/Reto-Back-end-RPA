@@ -1,0 +1,29 @@
+# Ignorar archivos y carpetas generados por Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Entorno virtual
+venv/
+env/
+.venv/
+.env/
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+
+# Ignorar archivos de migraciones de Django
+*.sqlite3
+*.db
+
+# Archivos del sistema operativo (macOS/Windows)
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de Playwright
+playwright-python/
+
+# Archivos de logs
+*.log
